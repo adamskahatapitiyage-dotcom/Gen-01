@@ -1,0 +1,6 @@
+{
+  "name": "AI Attribute Rule Generator",
+  "description": "An AI-powered assistant to generate detailed, clear, and consistent rules for product attribute tagging based on user-provided categories, attributes, and values.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

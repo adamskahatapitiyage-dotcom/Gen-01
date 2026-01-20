@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "AI Attribute Rule Generator",
+  "version": "1.0",
+  "description": "An AI-powered assistant to generate detailed, clear, and consistent rules for product attribute tagging based on user-provided categories, attributes, and values.",
+  "permissions": [
+    "sidePanel"
+  ],
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "action": {
+    "default_title": "Open Rule Generator",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
